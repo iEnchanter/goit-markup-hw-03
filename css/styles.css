@@ -1,0 +1,131 @@
+body {
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;;
+    color: #434455;
+    background-color: #ffffff;
+}
+ul {
+    list-style-type:  none;
+}
+.logo {
+    text-decoration:  none;
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-studio {
+    color: #2e2f42;
+}
+
+.nav--link {
+    color: #2E2F42;
+    text-decoration:  none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.nav--link:hover {
+    color: #404BBF;
+}
+.nav--link:focus {
+    color: #404bbf;
+}
+.nav--link:active {
+    color: #404BBF;
+}
+.address {
+    font-style: normal;
+}
+.address--link {
+    text-decoration:  none;
+    color: #434455;
+}
+.address--link:hover {
+    color: #404BBF;
+}
+.address--link:focus {
+    color: #404bbf;
+}
+.section-hero {
+    background-color: #2e2f42;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.button-hero {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+.button-hero:hover {
+    background-color: #404BBF;
+}
+.button-hero:focus{
+    background-color: #404BBF
+}
+.feature-title {
+    color: #2E2F42;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    color: #2E2F42;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    color: #2E2F42;
+}
+.section-team {
+    background-color: #F4F4FD ;
+}
+.our-team {
+    text-transform: capitalize;
+}
+.teamcard {
+    background-color: #FFFFFF;
+}
+.our-portfolio-group {
+    background-color: #FFFFFF;
+}
+.name {
+    text-align: center;
+}
+.text-description {
+    text-align: center;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.our-portfolio {
+    text-transform: capitalize;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.footer-logo-studio {
+    color: #f4f4fd;
+}
+.footer-text {
+    color: #F4F4FD;
+}
