@@ -11,13 +11,20 @@ body {
     background-color: #ffffff;
 }
 ul {
+    padding: 0;
     list-style-type:  none;
+}
+img {
+    display: block;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.header-container{
     display: flex;
+        align-items: center;
+}
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -27,6 +34,7 @@ ul {
     align-items: center;
 }
 .logo {
+        display: inline-block;
     text-decoration:  none;
     font-family:'Raleway', sans-serif;
     font-weight: 700;
@@ -37,11 +45,16 @@ ul {
     color: #4d5ae5;
     margin-right: 76px;
 }
+.header-logo{
+    padding: 24px 0;
+        margin-right: 76px;
+}
 .logo-studio {
-    color: #2e2f42;
+      color: #2e2f42;
 }
 .nav-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 .nav--link {
@@ -63,6 +76,7 @@ ul {
     color: #404BBF;
 }
 .address {
+        margin-left: auto;
     font-style: normal;
 }
 .address-list {
@@ -70,6 +84,8 @@ ul {
     gap: 40px;
 }
 .address--link {
+    display: block;
+    padding: 24px 0;
     text-decoration:  none;
     color: #434455;
 }
@@ -93,8 +109,10 @@ h1 {
 }
 .hero {
     max-width: 496px;
+    margin: 0 auto 48px;
 }
 .button-hero {
+    margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -169,9 +187,6 @@ h3 {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
-.our-portfolio-group {
-
-}
 .team--card {
     padding: 32px 0
 }
@@ -184,7 +199,7 @@ h3 {
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .section-portfolio {
-    padding-top: 120px; 
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .our-portfolio {
@@ -196,10 +211,9 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-        background-color: #FFFFFF;
 }
 .our-portfolio-card {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio--text {
     padding: 32px 16px;
@@ -233,7 +247,4 @@ h3 {
 .footer-text {
     color: #F4F4FD;
     max-width: 264px;
-}
-img {
-    display: block;
 }
